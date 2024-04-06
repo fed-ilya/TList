@@ -2,7 +2,7 @@
 #include "TList.h"
 
 template <class T>
-class THeadList :public TList<T> {
+class THeadList : public TList<T> {
 protected:
 	TNode<T>* pHead;
 public:
